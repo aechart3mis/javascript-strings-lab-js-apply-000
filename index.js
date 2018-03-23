@@ -8,5 +8,8 @@ var topic = "space";
 
 space = 'Let\'s talk about space.'
 
+var first = greetSpecialGuest;
+var second = Topic;
+conversation (first + second);
 
 var conversation = `${greetSpecialGuest}` + `${topic}`;
